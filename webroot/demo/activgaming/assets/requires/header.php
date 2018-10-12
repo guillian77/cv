@@ -24,6 +24,9 @@ Communauté Multigaming Francophone Française
 		<meta property="og:url" content="http://activ-gaming.com" />
 		<meta property="og:site_name" content="Activ Gaming" />
 
+		<!-- DISALLOW USERAGENT -->
+		<meta name="robots" content="noindex, nofollow">
+
 		<!-- GOOGLE SIGN IN SYSTEM -->
 		<meta name="google-signin-client_id" content="121145679517-atorcg5ltlk806kkuqiucm5n21s3f0n3.apps.googleusercontent.com">
 		<link rel="shortcut icon" type="image/png" href="favicon.ico" />
