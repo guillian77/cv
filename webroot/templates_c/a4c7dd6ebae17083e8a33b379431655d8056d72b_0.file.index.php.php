@@ -1,11 +1,34 @@
-<div class="container">
+<?php
+/* Smarty version 3.1.34-dev-4, created on 2018-10-12 12:31:08
+  from 'C:\wamp\www\cv\view\home\index.php' */
+
+/* @var Smarty_Internal_Template $_smarty_tpl */
+if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
+  'version' => '3.1.34-dev-4',
+  'unifunc' => 'content_5bc0940ccd8fc4_48626348',
+  'has_nocache_code' => false,
+  'file_dependency' => 
+  array (
+    'a4c7dd6ebae17083e8a33b379431655d8056d72b' => 
+    array (
+      0 => 'C:\\wamp\\www\\cv\\view\\home\\index.php',
+      1 => 1539273510,
+      2 => 'file',
+    ),
+  ),
+  'includes' => 
+  array (
+  ),
+),false)) {
+function content_5bc0940ccd8fc4_48626348 (Smarty_Internal_Template $_smarty_tpl) {
+?><div class="container">
 	<!-- PRESENTATION -->
 	<div id="presentation" class="section" style="padding: 90px 0 120px;">
 		<h1 class="text-center">Présentation<span>&nbsp;</span></h1>
 
 		<div class="row" style="margin-top: 90px;">
 			<div class="col-sm text-center">
-				<img id="avatar" src="{BASE_URL}img/profile.jpg" alt="Avatar" width="230px" height="230px" />
+				<img id="avatar" src="<?php echo '<?=';?> BASE_URL; <?php echo '?>';?>img/profile.jpg" alt="Avatar" width="230px" height="230px" />
 			</div>
 			<div class="col-lg margin">
 				<p class="mt-4">Passionné d'informatique et autodidacte, je souhaite en apprendre toujours plus sur les nouvelles technologies.
@@ -25,7 +48,7 @@
 			  <div class="comp-icon back-end">
 			    <i class="fas fa-code"></i>
 			  </div>
-			  <p>PHP / MySQL / Smarty</p>
+			  <p>PHP / MySQL</p>
 			  <p>POO / MVC / Frameworks</p>
 			  <p>Linux Debian / CentOS / RedHat</p>
 			</div>
@@ -65,7 +88,7 @@
 			<div class="col col-lg-4 real-block">
 				<h2>Activ Gaming</h2>
 				<a href="./demo/activgaming" class="tip" target="_blank">
-					<img src="{BASE_URL}img/ag.jpg" class="img-fluid" alt="Activ Gaming">
+					<img src="<?php echo '<?=';?> BASE_URL; <?php echo '?>';?>img/ag.jpg" class="img-fluid" alt="Activ Gaming">
 					<span>Visiter le site web</span>
 				</a>
 				<blockquote class="blockquote">
@@ -76,7 +99,7 @@
 			<div class="col col-lg-4 real-block">
 				<h2>Sylvanar servers</h2>
 				<a class="tip">
-					<img src="{BASE_URL}img/sylvanar.jpg" class="img-fluid" alt="Activ Gaming">
+					<img src="<?php echo '<?=';?> BASE_URL; <?php echo '?>';?>img/sylvanar.jpg" class="img-fluid" alt="Activ Gaming">
 					<span>Malheureusement, ce site n'est plus en ligne.</span>
 				</a>
 				<blockquote class="blockquote">
@@ -87,7 +110,7 @@
 			<div class="col col-lg-4 real-block">
 				<h2>Skillcomm</h2>
 				<a class="tip">
-					<img src="{BASE_URL}img/skillcomm.jpg" class="img-fluid" alt="Activ Gaming">
+					<img src="<?php echo '<?=';?> BASE_URL; <?php echo '?>';?>img/skillcomm.jpg" class="img-fluid" alt="Activ Gaming">
 					<span>Malheureusement, ce site n'est plus en ligne.</span>
 				</a>
 				<blockquote class="blockquote">
@@ -212,4 +235,5 @@
 			</div>
 		</div>
 	</div>
-</div>
+</div><?php }
+}
