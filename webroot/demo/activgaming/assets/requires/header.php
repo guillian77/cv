@@ -27,11 +27,6 @@ Communauté Multigaming Francophone Française
 		<!-- DISALLOW USERAGENT -->
 		<meta name="robots" content="noindex, nofollow">
 
-		<!-- GOOGLE SIGN IN SYSTEM -->
-		<meta name="google-signin-client_id" content="121145679517-atorcg5ltlk806kkuqiucm5n21s3f0n3.apps.googleusercontent.com">
-		<link rel="shortcut icon" type="image/png" href="favicon.ico" />
-		<script src="assets/jscript/google-analytics.js"></script>
-
 		<!-- LINK STYLESHEETS -->
 		<link rel="stylesheet" type="text/css" href="assets/css/reset.css" media="screen" />
 		<link rel="stylesheet" type="text/css" href="assets/css/font-awesome.min.css" media="screen" />
