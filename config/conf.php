@@ -43,24 +43,6 @@ class Conf {
 		'user' => "guillian",
 		'password' => "AR86g4LOQaKL4DVU",
 		'table' => "activ-gaming"
-	),
-
-	'tsdb' => array(
-		'host' => "activ-gaming.com",
-		'user' => "guillian",
-		'password' => "AR86g4LOQaKL4DVU",
-		'table' => "ts32"
-	),
-
-	/** ======
-	* TEAMSPEAK SERVER QUERY
-	*/
-	'tsquery' => array(
-		'host' => "activ-gaming.com",
-		'user' => "serveradmin",
-		'password' => "hp8OVgsz",
-		'serverport' => "9987",
-		'queryport' => "10011"
 	)
 	);
 }
