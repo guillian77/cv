@@ -1,0 +1,375 @@
+/* line 4, scss/base/_base.scss */
+html, body {
+  height: 100%;
+  overflow-x: hidden;
+}
+
+/* line 9, scss/base/_base.scss */
+body {
+  background-color: rgba(0, 0, 0, 0);
+  background-image: url(img/bg.jpg);
+  background-size: 100% 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  font-family: Montserrat, Arial, Helvetica, sans-serif;
+  color: white;
+  overflow-x: hidden;
+}
+
+/* line 21, scss/base/_base.scss */
+* {
+  padding: 0;
+  margin: 0;
+}
+
+/* line 27, scss/base/_base.scss */
+a {
+  text-decoration: none;
+  color: #000;
+}
+
+/* line 32, scss/base/_base.scss */
+.padding-both {
+  padding: 100px 0;
+}
+
+/* line 36, scss/base/_base.scss */
+.text-center {
+  text-align: center;
+  font-weight: bold;
+}
+
+/** =========
+* = HEADER
+*/
+/* line 5, scss/module/_header.scss */
+header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  position: relative;
+}
+
+/* line 13, scss/module/_header.scss */
+.heading {
+  text-align: center;
+  display: inline-block;
+  position: absolute;
+  top: 50%;
+  color: #f1f1f1;
+  transform: translateY(-50%);
+}
+
+/* line 22, scss/module/_header.scss */
+.top-title {
+  display: block;
+  font-size: 20px;
+  color: #fafafa;
+  letter-spacing: 6px;
+  line-height: 20px;
+  text-transform: uppercase;
+}
+
+/* line 31, scss/module/_header.scss */
+.middle-title {
+  color: #fa225b;
+  font-size: 140px;
+  line-height: 168px;
+  letter-spacing: 6px;
+}
+
+/* line 38, scss/module/_header.scss */
+.bottom-title {
+  display: block;
+  color: #7a89ab;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 6px;
+  text-transform: uppercase;
+}
+
+/* line 47, scss/module/_header.scss */
+.arrow-link {
+  position: relative;
+  bottom: 10%;
+  left: 50%;
+  font-size: 80px;
+  line-height: 80px;
+  transition: 0.4s;
+  color: rgba(255, 255, 255, 0);
+}
+
+/* line 57, scss/module/_header.scss */
+.arrow-link:hover {
+  opacity: 0.8;
+}
+
+/** =========
+* 1. General boxes rules
+* 2. Responsive boxes rules
+*/
+/** =========
+* 1. BOXES
+*/
+/* line 10, scss/module/_box.scss */
+.flex-container {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+}
+
+/* line 16, scss/module/_box.scss */
+.box {
+  display: block;
+  width: 50%;
+  min-height: 50%;
+  overflow: hidden;
+  opacity: 0.8;
+  position: relative;
+  vertical-align: top;
+}
+
+/* line 26, scss/module/_box.scss */
+.box img {
+  width: 100%;
+  height: 100%;
+}
+
+/* line 31, scss/module/_box.scss */
+.text-box {
+  padding: 45px 45px;
+  color: #7a89ab;
+  width: 70%;
+  margin: 0 auto;
+  font-size: 16px;
+  line-height: 1.88;
+}
+
+/* line 40, scss/module/_box.scss */
+.text-box p {
+  padding: 10px 0;
+}
+
+/**
+* BEGIN BOX ROLLHOVER
+*/
+/* line 48, scss/module/_box.scss */
+.box-image {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+/* line 54, scss/module/_box.scss */
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #fa225b;
+}
+
+/* line 67, scss/module/_box.scss */
+.box:hover .overlay {
+  opacity: 1;
+}
+
+/* line 71, scss/module/_box.scss */
+.text-over {
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+  text-transform: uppercase;
+}
+
+/** =========
+* 2. RESPONSIVE
+*/
+@media only screen and (max-width: 800px) {
+  /* line 88, scss/module/_box.scss */
+  .box {
+    width: 100%!important;
+  }
+}
+/** =========
+* = TEAMSPEAK STATS
+*/
+/* line 5, scss/module/_teamspeak.scss */
+.teamspeak-overview {
+  background-color: #20232c;
+  opacity: 1!important;
+}
+
+/* line 10, scss/module/_teamspeak.scss */
+.teamspeak-overview:hover {
+  opacity: 0.8!important;
+}
+
+/* line 14, scss/module/_teamspeak.scss */
+.teamspeak-stats {
+  background-color: #191c23;
+  position: relative;
+  text-transform: uppercase;
+}
+
+/* line 20, scss/module/_teamspeak.scss */
+.teamspeak-stats p {
+  padding-bottom: 20px;
+}
+
+/* line 24, scss/module/_teamspeak.scss */
+.teamspeak-stats::after {
+  content: " ";
+  display: block;
+  position: relative;
+  height: 1px;
+  background: #7a89ab;
+  width: 100px;
+  top: 15px;
+  margin: 0 auto;
+}
+
+/* line 35, scss/module/_teamspeak.scss */
+.windows {
+  -moz-border-radius-topleft: 14px;
+  -webkit-border-top-left-radius: 14px;
+  border-top-left-radius: 14px;
+  -moz-border-radius-topright: 14px;
+  -webkit-border-top-right-radius: 14px;
+  border-top-right-radius: 14px;
+  border: 1px solid #1c82cc;
+  min-height: 80%;
+  position: relative;
+  display: block;
+}
+
+/* line 45, scss/module/_teamspeak.scss */
+.windows::after {
+  content: ' ';
+  width: 100%;
+  border: 1px solid #1c82aa;
+  position: absolute;
+  top: 40px;
+  box-sizing: border-box;
+}
+
+/* line 54, scss/module/_teamspeak.scss */
+.windows-svg {
+  position: absolute;
+  display: block;
+  right: 0;
+  top: 0;
+  margin-right: 15px;
+  height: 40px!important;
+  width: 60px!important;
+}
+
+/* line 64, scss/module/_teamspeak.scss */
+.windows-title {
+  position: absolute;
+  box-sizing: border-box;
+  margin-left: 15px;
+  line-height: 20px;
+  margin-bottom: 60px;
+  font-weight: bold;
+}
+
+/* line 73, scss/module/_teamspeak.scss */
+.windows-content {
+  margin-top: 40px;
+  padding: 0 15px;
+}
+
+/* line 78, scss/module/_teamspeak.scss */
+.windows-content p {
+  padding: 0!important;
+  margin-bottom: 3px;
+}
+
+/* line 83, scss/module/_teamspeak.scss */
+.windows-content p span {
+  font-weight: 500;
+  display: block;
+  margin-left: 15px;
+}
+
+/* line 89, scss/module/_teamspeak.scss */
+.windows-content p span i {
+  font-size: 12px!important;
+}
+
+/** =========
+* = ABOUT
+*/
+/* line 5, scss/module/_about.scss */
+#about {
+  background-color: #20232c;
+  padding: 1px 0;
+}
+
+/* line 10, scss/module/_about.scss */
+.about-title {
+  font-size: 48px;
+  text-transform: uppercase;
+  font-weight: 600;
+  line-height: 1.2;
+  letter-spacing: 1px;
+  font-style: normal;
+}
+
+/** =========
+* = SHAPES EFFETCS
+*/
+/* line 5, scss/module/_shape.scss */
+.shape {
+  position: relative;
+  display: block;
+  border-right: 2000px solid #191c23;
+  border-bottom: 65px solid transparent;
+  margin-bottom: 150px;
+}
+
+/* line 13, scss/module/_shape.scss */
+.shape2 {
+  position: relative;
+  display: block;
+  border-left: 2000px solid #20232c;
+  border-top: 65px solid transparent;
+}
+
+/** =========
+* = FOOTER
+*/
+/* line 5, scss/module/_footer.scss */
+footer {
+  text-align: center;
+  background-color: #1d2028;
+  min-height: 20%;
+}
+
+/* line 11, scss/module/_footer.scss */
+#footer-logo {
+  display: block;
+  width: 100px;
+  height: auto;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+/* line 19, scss/module/_footer.scss */
+footer a, span {
+  color: #7a89ab;
+}

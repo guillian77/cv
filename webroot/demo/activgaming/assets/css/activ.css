@@ -1,0 +1,56 @@
+/**
+* Feuille de style en cascade
+* Modifiation pour Activ Gaming
+* @copy Activ Gaming 2016
+* @author Dekadmin
+*/
+
+/* == EDIT FOR SUPPORT PAGE == */
+
+.accordion-tab a .accordion-status {
+	padding: 5px;
+	color: #fafafa;
+	margin-top: -5px;
+	text-transform: uppercase;
+	float: right;
+	margin-right: 25px;
+	border-radius: 2px;
+}
+
+.open {
+	background-color: #519623;
+	opacity: 0.9;
+}
+
+.close {
+	background-color: red;
+}
+
+/* == SCROLLBAR == */
+/* width */
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    background: #f1f1f1; 
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: #c22828;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: #555; 
+}
+
+/* == EDIT FOR TEAM PAGE == */
+
+.comment-form p select {
+    width: 65%!important;
+    display: block!important;
+    margin-left: 29%!important;
+}

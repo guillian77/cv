@@ -1,0 +1,128 @@
+body, #main p {
+	color: #cccccc!important;
+}
+
+#main {
+	background-color: rgba(19,19,19,1)!important;
+	/* 3f3f3f */
+	/* 111111 */
+}
+
+.signup-panel > div > h2,
+.user-profile .profile-right-side h2,
+.game-info-right h2,
+.article-footer h2,
+#main .forum-block > h2,
+#main > h2 {
+	background: url(../../assets/images/content-title-bg-dark.png) repeat-x left center;
+}
+
+.do-the-split {
+	background: url(../../assets/images/content-title-bg-dark.png) repeat-x center center;
+}
+
+h2 span {
+	background-color: rgba(19,19,19,1)!important;
+	color: #f4f4f4!important;
+}
+
+a, .video-game-stores .item .store-title, .video-game-stores .item .store-title strong {
+	color: #f4f4f4;
+}
+
+#main-box {
+    background-color: rgba(19,19,19,1)!important;
+}
+
+#main-box #sidebar {
+	background-color: #111111;
+	box-shadow: none;
+}
+
+.staff-block .item:nth-child(n+3) {
+    border-top: 1px solid #3f3f3f;
+}
+
+.user-profile .profile-left-side .the-profile-top, .profile-left-side .the-profile-navi {
+    background-color: #111!important;
+}
+
+/* GENERAL */
+
+.defbutton {
+    color: #cccccc!important;
+    background-color: #232323;
+}
+
+.defbutton:hover {
+	color: #3f3f3f!important;
+    background-color: #eaeaea;
+}
+
+/* ARTICLES */
+
+.article-image-out span.image-comments span {
+    background-color: #c22828;
+}
+
+.article-image-out span.image-comments {
+    background: url(../../assets/images/comment-arrow-red.png) no-repeat 7px bottom;
+}
+
+/* SIDEBAR */
+
+#sidebar .panel h2 {
+	color: #f4f4f4!important;
+}
+
+.sidebar-comments span {
+    background-color: #c22828;
+}
+
+.sidebar-comments {
+    background: url(../../assets/images/comment-arrow-red.png) no-repeat 7px bottom;
+}
+
+#sidebar .panel .panel-content {
+    background: url(../../assets/images/sidebar-title-dark.png) no-repeat center top;
+}
+
+.sidebarmenu a {
+    background-color: rgba(19,19,19,1)!important;
+    box-shadow: none;
+    color: #cccccc!important;
+}
+
+/* STAFF */
+
+.staff-block .item .item-content h3 span {
+    background: #c22828;
+}
+
+.staff-block .item .item-content .social-links a {
+    background: rgba(0,0,0,0.7);
+    color: #fff;
+}
+
+.staff-block .item .item-content .social-links a:hover {
+    background: transparent;
+    color: rgba(0,0,0,0.7);
+}
+
+/* VIDEO GAMES */
+
+.video-game-stores .item {
+	color: #f4f4f4!important;
+}
+
+/* PROFIL */
+.profile-left-side .the-profile-navi {
+     box-shadow: 6px 2px 11px #111!important; 
+}
+
+/* */
+
+.reply-box {
+    display: block;
+    background: #232323;
+}
