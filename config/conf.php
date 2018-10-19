@@ -22,7 +22,7 @@ class Conf {
 		'youtube' => "https://www.youtube.com/channel/UCqXeSgfYewvKp1QrCuDmlHQ",
 		'teamspeak' => "ts.activ-gaming.com",
 		'git' => "https://github.com/guillian77",
-		'mail' => "guillian77270@gmail.com"
+		'mail' => "guillian77270@gmail.com" 
 	),
 
 	/** ======
