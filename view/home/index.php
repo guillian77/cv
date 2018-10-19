@@ -5,7 +5,7 @@
 
 		<div class="row" style="margin-top: 90px;">
 			<div class="col-sm text-center">
-				<img id="avatar" src="{BASE_URL}img/profile.jpg" alt="Avatar" width="230px" height="230px" />
+				<img id="avatar" src="<?= BASE_URL; ?>img/profile.jpg" alt="Avatar" width="230px" height="230px" />
 			</div>
 			<div class="col-lg margin">
 				<p class="mt-4">Passionné d'informatique et autodidacte, je souhaite en apprendre toujours plus sur les nouvelles technologies.
@@ -65,7 +65,7 @@
 			<div class="col col-lg-4 real-block">
 				<h2>Activ Gaming</h2>
 				<a href="./demo/activgaming" class="tip" target="_blank">
-					<img src="{BASE_URL}img/ag.jpg" class="img-fluid" alt="Activ Gaming">
+					<img src="<?= BASE_URL; ?>img/ag.jpg" class="img-fluid" alt="Activ Gaming">
 					<span>Visiter le site web</span>
 				</a>
 				<blockquote class="blockquote">
@@ -76,7 +76,7 @@
 			<div class="col col-lg-4 real-block">
 				<h2>Sylvanar servers</h2>
 				<a class="tip">
-					<img src="{BASE_URL}img/sylvanar.jpg" class="img-fluid" alt="Activ Gaming">
+					<img src="<?= BASE_URL; ?>img/sylvanar.jpg" class="img-fluid" alt="Activ Gaming">
 					<span>Malheureusement, ce site n'est plus en ligne.</span>
 				</a>
 				<blockquote class="blockquote">
@@ -87,7 +87,7 @@
 			<div class="col col-lg-4 real-block">
 				<h2>Skillcomm</h2>
 				<a class="tip">
-					<img src="{BASE_URL}img/skillcomm.jpg" class="img-fluid" alt="Activ Gaming">
+					<img src="<?= BASE_URL; ?>img/skillcomm.jpg" class="img-fluid" alt="Activ Gaming">
 					<span>Malheureusement, ce site n'est plus en ligne.</span>
 				</a>
 				<blockquote class="blockquote">

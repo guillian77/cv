@@ -28,11 +28,8 @@ class Controller
 			$view = ROOT.DS.'view'.DS.$this->request->controller.DS.$view.'.php';
 		}
 
-		// load template engine
-		$tpl = new Smarty();
-
 		ob_start();
-			$tpl->display($view);
+			require $view;
 		$content_for_layout = ob_get_clean();
 		require ROOT.DS.'view'.DS.'layout'.DS.$this->layout.'.php';
 		$this->rendered = true;

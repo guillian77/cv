@@ -9,8 +9,6 @@ if (stripos($_SERVER['SERVER_SOFTWARE'], "Win")) {
 	define('BASE_URL',dirname(dirname($_SERVER['SCRIPT_NAME']))."/");
 }
 
-// die(BASE_URL);
-
 require CORE.DS.'includes.php';
 $dispatcher = new Dispatcher;
 
