@@ -81,6 +81,11 @@
 			    	GitHub <i class="fas fa-code"></i>
 			    </a>
 			  </li>
+			  <li class="nav-item">
+			    <a class="nav-link" href="mailto:<?= Conf::$settings['network']['mail']; ?>">
+			    	Contact <i class="far fa-envelope"></i>
+			    </a>
+			  </li>
 			</ul>
 		</div>
 	</nav>
