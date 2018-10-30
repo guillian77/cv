@@ -51,6 +51,6 @@
         </div>
       </div>
     </div>
-    <p>Ce site (<?= Conf::$settings['keywords']['url']; ?>) est proposé en différents langages web (HTML5, Javascript, CSS, etc…) pour un meilleur confort d’utilisation et un graphisme plus agréable, nous vous recommandons de recourir à des navigateurs modernes comme Internet explorer, Safari, Firefox, Google Chrome, etc…</p>
+    <p>Ce site (<?= Conf::$settings['keywords']['url']; ?>) est proposé en différents langages web (HTML5, Javascript, CSS, etc…) pour un meilleur confort d’utilisation et un graphisme plus agréable, nous vous recommandons de recourir à des navigateurs modernes comme Safari, Mozilla Firefox, Google Chrome, etc…</p>
   </div>
 </div>
