@@ -81,6 +81,11 @@
 			    	GitHub <i class="fas fa-code"></i>
 			    </a>
 			  </li>
+			  <li class="nav-item">
+			    <a class="nav-link" href="<?= BASE_URL; ?>contact" target="_blank">
+			    	Contact <i class="far fa-envellope"></i>
+			    </a>
+			  </li>
 			</ul>
 		</div>
 	</nav>

@@ -6,11 +6,11 @@
       <div class="row">
         <div class="col col-lg-6">
           <h5>Envoyer un message</h5>
-          <p>
-            <a href="mailto:guillian77270@gmail.com">guillian77270@gmail.com</a><br/>
-            06 15 17 13 09<br/>
-            18 000 - Bourges
-          </p>
+          <form method="POST" action="">
+            <input type="text" name="name" placeholder="Nom"><br>
+            <input type="text" name="subject" placeholder="Sujet"><br>
+            <input type="submit" value="Envoyer" />
+          </form>
         </div>
 
         <div class="col col-lg-6">

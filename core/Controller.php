@@ -53,11 +53,13 @@ class Controller
 	* @param $name Le nom du model
 	*/
 	function loadModel($name) {
-		$file = ROOT.DS.'model'.DS.$name.'.php';
+		$model = ucfirst($name)."Model";
+		$file = ROOT.DS.'model'.DS.$model.'.php';
+
 		require_once($file);
-		// if(!isset($this->$name)) {
-			// $this->$name = new $name();
-		// }
+		if(!isset($this->$name)) {
+			return new $model();
+		}
 	}
 
 	/**

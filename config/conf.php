@@ -39,10 +39,10 @@ class Conf {
 	* DATABASE SETTINGS
 	*/
 	'db' => array(
-		'host' => "127.0.0.1",
-		'user' => "USER",
-		'password' => "PASSWORD",
-		'table' => "TABLE"
+		'host' => "activ-gaming.com",
+		'user' => "temp",
+		'password' => "g8I5u0xUq6l6HxLn",
+		'table' => "activ-gaming"
 	)
 	);
 }
