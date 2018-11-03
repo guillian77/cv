@@ -13,7 +13,7 @@ class ContactModel extends Model
 	*/
 	public function setMessage($entries) {
 		// TO DO
-		$db->prepare('INSERT INTO users');
+		$db->prepare('INSERT INTO messages');
 	}
 
 
