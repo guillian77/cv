@@ -82,8 +82,8 @@
 			    </a>
 			  </li>
 			  <li class="nav-item">
-			    <a class="nav-link" href="<?= BASE_URL; ?>contact" target="_blank">
-			    	Contact <i class="far fa-envellope"></i>
+			    <a class="nav-link" href="<?= BASE_URL; ?>contact">
+			    	Contact <i class="far fa-envelope"></i>
 			    </a>
 			  </li>
 			</ul>

@@ -42,7 +42,7 @@ class Conf {
 		'host' => "activ-gaming.com",
 		'user' => "temp",
 		'password' => "g8I5u0xUq6l6HxLn",
-		'table' => "activ-gaming"
+		'table' => "cv_guillian"
 	)
 	);
 }

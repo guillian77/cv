@@ -13,7 +13,14 @@ class ContactModel extends Model
 	*/
 	public function setMessage($entries) {
 		// TO DO
-		$db->prepare('INSERT INTO messages');
+		$stmt = $this->db->prepare("INSERT INTO messages (name, mail, subject, content) VALUES (:name, :mail, :subject, :content)");
+		$stmt->bindParam(':name', $entries['name']);
+		$stmt->bindParam(':mail', $entries['mail']);
+		$stmt->bindParam(':subject', $entries['subject']);
+		$stmt->bindParam(':content', $entries['content']);
+
+		return $stmt->execute();
+
 	}
 
 
