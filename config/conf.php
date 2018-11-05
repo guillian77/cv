@@ -42,7 +42,7 @@ class Conf {
 		'host' => "127.0.0.1",
 		'user' => "USER",
 		'password' => "PWD",
-		'table' => "TABLE"
+		'table' => "TABLE_"
 	)
 	);
 }
