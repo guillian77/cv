@@ -27,8 +27,23 @@ class ContactModel extends Model
 	/**
 	* getMessage
 	* Consulter un message dans la base de données
+	* @param int mid ID du message à sélectionner
+	* Si 'mid' vide sélectionner tous les messages.
 	*/
-	public function getMessage() {
+	public function getMessage($mid=NULL) {
+		$query = "SELECT * FROM messages";
+		if (!empty($mid)) {
+			$query .= " WHERE mid = $mid";
+		}
+
+		return $this->db->query($query);
+	}
+
+	/**
+	* delMessage
+	* Supprimer un message dans la base de données
+	*/
+	public function delMessage($mid) {
 		// TO DO
 	}
 }
